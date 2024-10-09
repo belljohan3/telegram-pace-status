@@ -11,7 +11,7 @@ const usersTokens: { [userId: string]: string } = {}; // Store user tokens
 
 // Express app to handle OAuth callback
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 30000;
 
 // Handle the /start command
 bot.start((ctx) => {
